@@ -6,7 +6,7 @@ html, body
 
 #kwitter
 {
-background-color: lightgreen;
+background-color: rgba(0, 0, 0, 0.817);
 
 }
 
@@ -31,7 +31,7 @@ background-color: lightgreen;
 
 #login_button
 {
-	width: 80%;border-radius: 15px;
+	width: 20%;border-radius: 15px;
 }
 
 .room_name
@@ -92,4 +92,31 @@ background-color: lightgreen;
 .message_h4
 {
 	padding-left:5px;color:grey;
+}
+h3 {
+    color: orange;
+    
+}
+h4 {
+    color: green;
+    
+}
+label {
+    color: red;
+    
+}
+#user_name{
+    color: wheat;
+    
+}
+#password{
+    color: wheat;
+    
+}
+#login_button{
+
+    color: salmon;
+}
+body{
+    color: rgb(32, 32, 218);
 }

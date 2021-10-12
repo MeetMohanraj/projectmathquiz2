@@ -13,23 +13,35 @@
 </head>
 <body id="kwitter" class="kwitter">
 <center>
-	<h1 class="header">	
-		letschat	<sup>
-	<img src="m2.png">
+		<sup>
+	<img src="download.png" style="height: 100px;">
 	</sup>
-</h1>
-	<div class="col-lg-4 col-md-6 col-sm-6 col-xs-11 login_div" style="background-color:rgb(117, 117, 224) ;">
-	<img src="logo.png" class="logo">
-		<h3 >See what is happening in the world right now</h3>
-		<h4 >Join letschat today</h4>
-		<div class="form-group">
-		  <label >User Name:</label>
-			<input type="text" id="user_name" class="form_control" placeholder="User name">
 
+	
+	
+		<h3 >type the user_name and password</h3>
+		
+		
+		
+		<div class="form-group">
+			<div id="user_name">
+		  <label >User Name:</label>
+		  
+			<input type="text" id="user_name" class="form_control" placeholder="User name">
 		</div>
+		<br>
+		
+			<div id="password">
+
+			<label >password</label>
+		  
+			<input type="text" id="password" class="form_control" placeholder="password">
+		</div>
+		</div>
+		
 		<button id="login_button" class="btn btn-primary" onclick="addUser()">Log in</button>
-		<br><br>
-	</div>
+		
+	
 </center>
 <script src="main.js"></script>
 </body>
